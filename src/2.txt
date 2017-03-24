@@ -1,0 +1,97 @@
+16)
+package mukul;
+
+class simple
+{
+    int x=9;
+}
+public class lsp16 extends simple
+{
+ public static void main(String args[])
+ {
+     lsp16 hi = new lsp16();
+     System.out.println(hi.x);
+ }
+}
+
+17)
+package mukul;
+class mula
+{
+    int x=1;
+}
+class mulb extends mula
+{
+    int y=2;
+}
+public class lsp17 extends mulb
+{
+    int z=3;
+    public static void main(String args[])
+    {
+        lsp17 hi = new lsp17();
+        System.out.println(hi.z+"\n"+hi.y+"\n"+hi.x);
+    }
+}
+
+18)
+package mukul;
+class or
+{
+    void main()
+    {
+        System.out.println("over riding");
+    }
+}
+public class lsp18
+{
+  static void main()//meathod over loading 
+  {
+      System.out.println("main");
+  }
+ static  void main(int x)//meathod over loading 
+  {
+      System.out.println(x);
+  }
+ public static void main(String args[])
+ {
+     or hi = new or();
+     main();
+     hi.main();
+     main(2);
+ }
+}
+
+19)
+package mukul;
+class co
+{
+    co()
+    {
+        System.out.println("default constructor ");
+    }
+    co(int a)
+    {
+        System.out.println("constructor over loading ");
+    }
+}
+public class lsp19
+{
+  static void main()//meathod over loading 
+  {
+      System.out.println("main");
+  }
+ static  void main(int x)//meathod over loading 
+  {
+      System.out.println(x);
+  }
+ public static void main(String args[])
+ {
+     co hi = new co();
+     co hii=new co(1);
+     main();
+     main(2);
+     
+ }
+}
+

@@ -1,0 +1,86 @@
+11)
+package mukul;
+
+import java.util.*;
+public class lsp11 
+{
+ public static void main(String args[])
+ {
+   System.out.println("enter the text to check weather a string is palindrome or not");
+   Scanner hi = new Scanner(System.in);
+   String s=hi.next();
+   int x=0, n=s.length();
+   for(int i=0;i<n;i++)
+   {
+       if(s.charAt(i)!=s.charAt(n-i-1))
+       {
+          System.out.println("entered string is not a palindrome");
+          x=1;
+          break;
+       }
+   }
+   if(x==0)
+   {
+      System.out.println("entered string is  a palindrome");   
+   }
+ }
+}
+
+12)
+a)
+package mukul;
+
+public class lsp12a 
+{
+    public static void  hi(int a)
+    {
+        System.out.println(a);
+    }
+    public static void main(String args[])
+    {
+        hi(3);
+    }
+    
+}
+
+b)
+package mukul;
+
+class pba
+{
+  int x;  
+}
+public class lsp12b 
+{
+ public static void hi(pba a)
+ {
+     System.out.println(a.x);
+ }
+ public static void main(String args[])
+ {
+    pba a = new pba();
+    a.x=3;
+    hi(a);
+ }
+}
+
+13)
+package mukul;
+class This
+{
+    int x;
+    This hi(int x)
+    {
+        this.x=x;
+        System.out.println(this.x);
+        return this;
+    }
+}
+public class lsp13 
+{
+    public static void main(String args[])
+    {
+       This a = new This();
+       System.out.println(a.hi(10));
+    }
+}
