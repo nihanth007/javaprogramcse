@@ -1,5 +1,5 @@
 16)
-package mukul;
+
 
 class simple
 {
@@ -15,7 +15,7 @@ public class lsp16 extends simple
 }
 
 17)
-package mukul;
+
 class mula
 {
     int x=1;
@@ -35,7 +35,7 @@ public class lsp17 extends mulb
 }
 
 18)
-package mukul;
+
 class or
 {
     void main()
@@ -63,7 +63,7 @@ public class lsp18
 }
 
 19)
-package mukul;
+
 class co
 {
     co()

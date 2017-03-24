@@ -1,5 +1,5 @@
 20)
-package mukul;
+
 
 public class lsp20
 {
@@ -17,7 +17,6 @@ public class lsp20
 
 21)
 
-package mukul;
 
 public class lsp21 
 {
@@ -35,7 +34,7 @@ public class lsp21
 
 22)
 
-package mukul;
+
 class exp
 {
     int a=10,b=0;

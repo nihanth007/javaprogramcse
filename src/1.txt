@@ -1,5 +1,5 @@
 11)
-package mukul;
+
 
 import java.util.*;
 public class lsp11 
@@ -28,7 +28,7 @@ public class lsp11
 
 12)
 a)
-package mukul;
+
 
 public class lsp12a 
 {
@@ -44,7 +44,7 @@ public class lsp12a
 }
 
 b)
-package mukul;
+
 
 class pba
 {
@@ -65,7 +65,7 @@ public class lsp12b
 }
 
 13)
-package mukul;
+
 class This
 {
     int x;
