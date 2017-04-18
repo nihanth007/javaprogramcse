@@ -1,11 +1,5 @@
 import java.util.Scanner;
 
-/**
- * This is The 3rd Program in the Lab Program List of 2-2.
- * Write a JAVA program to display the Fibonacci sequence
- *
- * @author Nihanth Charan Mutluru
- */
 public class java003 {
     public static void main(String args[]) {
         int a = 0, b = 1, c, n;

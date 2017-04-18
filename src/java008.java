@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/**
- * This is The 8th Program in the Lab Program List of 2-2.
- * Write a JAVA program to determine the addition of two matrices
- *
- * @author Nihanth Charan Mutluru
- */
-
 public class java008 {
     public static void main(String args[]) {
         int r1, r2, c1, c2, i, j;

@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/**
- * This is The 6th Program in the Lab Program List of 2-2.
- * Write a JAVA program to search for an element in a given list of elements (linear search).
- *
- * @author Nihanth Charan Mutluru
- */
-
 public class java006 {
     public static void main(String args[]) {
         System.out.print("Enter the Number of Elements : ");

@@ -1,9 +1,3 @@
-/**
- * This is The 1st Program in the Lab Program List of 2-2.
- * Write a JAVA program to display default value of all primitive data types of JAVA.
- *
- * @author Nihanth Charan Mutluru
- */
 public class java001 {
 
     static int i;

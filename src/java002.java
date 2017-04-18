@@ -1,11 +1,5 @@
 import java.util.Scanner;
 
-/**
- * This is The 2nd Program in the Lab Program List of 2-2.
- * Write a JAVA program that displays the roots of a quadratic equation ax2+bx+c=0. Calculate the discriminant D and basing on the value of D, describe the nature of roots.
- *
- * @author Nihanth Charan Mutluru
- */
 public class java002 {
     public static void main(String args[]) {
         int a, b, c, d;
